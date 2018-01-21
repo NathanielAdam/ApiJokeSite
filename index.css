@@ -1,5 +1,6 @@
 body {
     background-color: orangered;
+    background-image: url();
 }
 #jokeButton{
     position: relative;
@@ -8,6 +9,11 @@ body {
     border: none;
     margin-right: 1rem;
     font-family: Kalam;
+    transition: 2s;
+    
+}
+#jokeButton:hover{
+    transform: scale(1.2)
 }
 
 #jokeContainer{
@@ -15,10 +21,19 @@ body {
     width: 60%;
     left: 20%;
     background-color:lightblue;
+    font-family:Kalam;
 }
 #jumbo-header{
     background-color: cadetblue;
 }
 
 
-
+.jumbotron{
+    font-family: Amatic sc;
+    
+}
+#jumboJump{
+    font-family: Amatic sc, cursive;
+    font-size: 2rem;
+    font-weight: 900;
+}
